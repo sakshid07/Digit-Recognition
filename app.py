@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 import pickle
 import numpy as np
 
-f=pickle.load(open('hr.pickle','rb'))
+f=pickle.load(open('clf.pickle','rb'))
 
 
 from PIL import Image, ImageFilter
